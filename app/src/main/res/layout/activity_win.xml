@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    android:background="@drawable/play_background_2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="?android:actionBarSize"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_win"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="50dp"
+        android:src="@drawable/win_play_2"
+        tools:ignore="MissingConstraints" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_win"
+            android:id="@+id/parent_record1"
+            android:background="@drawable/menu_background_button"
+            tools:ignore="MissingConstraints">
+            <ImageView
+                android:id="@+id/img_gold"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias=".15"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/win_one_medal"/>
+
+            <TextView
+                android:id="@+id/countbutton_record1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:fontFamily="@font/titanone_regular"
+                android:text="step: "
+                android:textColor="#564646"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/img_gold"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/record1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/titanone_regular"
+                android:maxLength="4"
+                android:text="9999"
+                android:textColor="#564646"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@id/countbutton_record1"
+                app:layout_constraintStart_toEndOf="@+id/countbutton_record1"
+                app:layout_constraintTop_toTopOf="@id/countbutton_record1" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/parent_record1"
+            android:id="@+id/parent_record2"
+            android:background="@drawable/menu_background_button"
+            tools:ignore="MissingConstraints">
+            <ImageView
+                android:id="@+id/img_kumush"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias=".15"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/win_two_medal"/>
+
+            <TextView
+                android:id="@+id/countbutton_record2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/titanone_regular"
+                android:text="step: "
+                android:textColor="#564646"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/img_kumush"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/record2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/titanone_regular"
+                android:maxLength="4"
+                android:text="999"
+                android:textColor="#564646"
+                android:textSize="30sp"
+                app:layout_constraintStart_toEndOf="@+id/countbutton_record2"
+                app:layout_constraintTop_toTopOf="@id/countbutton_record2"
+                app:layout_constraintBottom_toBottomOf="@id/countbutton_record2"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/parent_record2"
+            android:id="@+id/parent_record3"
+            android:background="@drawable/menu_background_button"
+            tools:ignore="MissingConstraints">
+            <ImageView
+                android:id="@+id/img_bronza"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias=".15"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/win_three_medal"/>
+
+            <TextView
+                android:id="@+id/countbutton_record3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/titanone_regular"
+                android:maxLength="9"
+                android:text="step: "
+                android:textColor="#564646"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/img_bronza"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/record3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/titanone_regular"
+                android:maxLength="4"
+                android:text="99"
+                android:textColor="#564646"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@id/countbutton_record3"
+                app:layout_constraintStart_toEndOf="@+id/countbutton_record3"
+                app:layout_constraintTop_toTopOf="@id/countbutton_record3" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/win_restart"
+            style="@style/PuzzleButtonRestart"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_puzzle_backgroundremovebgpnjpreview"
+            android:src="@drawable/restart"
+            android:padding="8dp"
+            app:tint="#C5C2C2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/parent_record3" />
+
+
+        <ImageView
+            android:id="@+id/win_home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_puzzle_backgroundremovebgpnjpreview"
+            android:padding="10dp"
+            android:src="@drawable/home_btn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/parent_record3"
+            app:tint="#C5C2C2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

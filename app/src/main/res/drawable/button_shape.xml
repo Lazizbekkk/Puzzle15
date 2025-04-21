@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape  xmlns:android="http://schemas.android.com/apk/res/android">
+ <corners android:radius="50dp"/>
+    <solid android:color="#D61D1D"></solid>
+    <stroke android:color="#D60E0E"/>
+    <corners android:radius="50dp"/>
+    <stroke android:color="#0086F1"/>
+    <stroke android:dashGap="@android:dimen/app_icon_size"/>
+</shape>

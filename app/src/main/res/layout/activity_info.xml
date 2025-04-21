@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:background="@drawable/play_background_2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="?android:actionBarSize"
+        >
+
+
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="3.2">
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:src="@drawable/play_numpuz"
+              android:layout_gravity="center"/>
+
+          <ImageView
+              android:layout_width="76dp"
+              android:layout_height="72dp"
+              android:layout_gravity="end"
+              android:src="@drawable/logotip"
+              app:tint="@color/white" />
+
+          <ImageView
+              android:layout_width="64dp"
+              android:layout_height="64dp"
+              android:layout_gravity="start"
+              android:src="@drawable/back"
+              android:padding="16dp"
+              android:id="@+id/back"
+              app:tint="@color/white" />
+
+      </FrameLayout>
+    <!--  <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:padding="20dp"
+          android:text="@string/the_author"
+          android:textColor="#DDC9C9"
+          android:textSize="25sp"
+          android:textStyle="italic|bold" />-->
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+
+      <androidx.appcompat.widget.LinearLayoutCompat
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="2"
+          >
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              app:cardElevation="200dp"
+              app:cardCornerRadius="50dp"
+            >
+
+              <ScrollView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/play_background_2"
+                  android:paddingVertical="32dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:justificationMode="inter_word"
+                       android:paddingHorizontal="32dp"
+                       android:text="@string/the_author"
+                       android:textColor="#DDC9C9"
+                       android:textSize="20sp"
+                       android:textStyle="italic|bold"
+                       >
+                   </TextView>
+                   <TextView
+                       android:layout_marginTop="8dp"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:justificationMode="inter_word"
+                       android:paddingHorizontal="32dp"
+                       android:text="@string/numpuz_info"
+                       android:textColor="#DDC9C9"
+                       android:textSize="20sp"
+                       android:textStyle="bold">
+                   </TextView>
+
+               </LinearLayout>
+
+              </ScrollView>
+
+          </androidx.cardview.widget.CardView>
+
+
+      </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+
+</LinearLayout>

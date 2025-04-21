@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PuzzleTextBottom">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">65sp</item>
+        <item name="fontFamily">@font/button_font1</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+    <style name="PuzzleButtonStyle">
+        <item name="background">@drawable/menu_background2</item>
+        <item name="android:layout_width">78dp</item>
+        <item name="android:layout_height">78dp</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:background">@drawable/button_puzzle_backgroundremovebgpnjpreview</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">0.0dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">55dp</item>
+    </style>
+
+    <style name="PuzzleButtonRestart">
+        <item name="background">@drawable/button_puzzle_backgroundremovebgpnjpreview</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+
+
+</resources>

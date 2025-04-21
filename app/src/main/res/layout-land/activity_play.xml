@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/play_background_2"
+    tools:context=".PlayActivity"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        android:layout_marginVertical="?android:actionBarSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_gravity="center"
+            android:background="@drawable/img_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/puzzle15btns"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:background="@drawable/play_background_3"
+            android:gravity="center"
+
+            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.9"
+            tools:context=".PlayActivity">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn1"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn2"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn3"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn4"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn5"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn1"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn6"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn5"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn2"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn7"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn6"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn3"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn8"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn7"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn4"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn9"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn5"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn10"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn9"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn6"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn11"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn10"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn7"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn12"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn11"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn8"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn13"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn9"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn14"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn13"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn11"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn15"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn14"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn10"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/puzzle15btn16"
+                style="@style/PuzzleButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toEndOf="@id/puzzle15btn15"
+                app:layout_constraintTop_toBottomOf="@id/puzzle15btn12"
+                app:layout_constraintWidth_percent="0.25" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/restart"
+        style="@style/PuzzleButtonRestart"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left|bottom"
+        android:layout_margin="30dp"
+        android:background="@drawable/button_puzzle_backgroundremovebgpnjpreview"
+        android:padding="8dp"
+        android:src="@drawable/restart"
+        app:layout_constraintBottom_toBottomOf="@+id/home_btn"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#C5C2C2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:padding="12sp"
+        android:src="@drawable/play_clock_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout3"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout3"
+        app:tint="#DFCECE" />
+
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titanone_regular"
+        android:textColor="#DFCECE"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/countbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="15dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/titanone_regular"
+        android:maxLength="10"
+        android:text="step: 9999"
+        android:textColor="#DFCECE"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout3" />
+
+    <ImageView
+        android:id="@+id/btnSong"
+        style="@style/PuzzleButtonRestart"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/button_puzzle_backgroundremovebgpnjpreview"
+        android:padding="8dp"
+        android:src="@drawable/ic_sound_on"
+        app:layout_constraintBottom_toBottomOf="@+id/countbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout3"
+        app:layout_constraintTop_toTopOf="@+id/chronometer1"
+        app:tint="#FFFFFF" />
+    <ImageView
+        android:id="@+id/home_btn"
+        android:layout_width="62dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center|center_vertical|start"
+        android:background="@drawable/button_puzzle_backgroundremovebgpnjpreview"
+        android:contentDescription="TODO"
+        android:padding="10dp"
+        android:src="@drawable/home_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#C5C2C2" />
+
+    <ImageView
+        android:id="@+id/cup_btn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center|center_vertical|start"
+        android:background="@drawable/button_puzzle_backgroundremovebgpnjpreview"
+        android:contentDescription="TODO"
+        android:padding="10dp"
+        android:src="@drawable/cup_games"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/home_btn"
+        app:tint="#C5C2C2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

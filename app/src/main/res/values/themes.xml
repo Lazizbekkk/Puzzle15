@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style
+        name="Base.Theme.Numpuz15"
+        parent="Theme.Material3.DayNight.NoActionBar"
+        >
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Numpuz15" parent="Base.Theme.Numpuz15" />
+</resources>
